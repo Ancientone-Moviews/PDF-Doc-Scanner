@@ -1,0 +1,6 @@
+{
+  "name": "DocScanner",
+  "description": "Smart document scanning app with automatic edge detection, perspective cropping, image enhancement, Gemini-powered OCR, multi-format export (PDF, Word, PPTX, Image), and Cloud Sync.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

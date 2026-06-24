@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Corners/Scanning brackets -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M24,36 V24 H36 M84,36 V24 H72 M24,72 V84 H36 M84,72 V84 H72" />
+
+    <!-- Document Sheet in the center -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M38,28 H62 L72,38 V78 C72,79.1 71.1,80 70,80 H38 C36.9,80 36,79.1 36,78 V30 C36,28.9 36.9,28 38,28 Z" />
+
+    <!-- Folded corner overlay -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M62,28 V38 H72 Z" />
+
+    <!-- Text Lines inside the document -->
+    <path
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M44,46 H64 M44,54 H64 M44,62 H54" />
+
+    <!-- Scanning Laser Beam -->
+    <path
+        android:strokeColor="#0EA5E9"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M18,54 H90" />
+        
+    <!-- Glowing effect on Laser Beam -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M18,54 H90" />
+
+</vector>
